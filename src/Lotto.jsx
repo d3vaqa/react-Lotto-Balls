@@ -1,5 +1,6 @@
 import React ,{Component} from 'react'
 import Ball from './Ball';
+import './Lotto.css'
 
 class Lotto extends Component{
     static defaultProps = {

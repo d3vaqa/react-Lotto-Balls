@@ -1,0 +1,41 @@
+.Lotto{
+    border: solid 0.007px gray;
+    padding: 1em 0 2em 0;
+    margin: 1em auto auto;
+    border-radius: 12px;
+
+    width: 40em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Lotto button{
+    background-color: initial;
+    background-image: linear-gradient(#8614f8 0, #760be0 100%);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 60px;
+    margin-left: -4px;
+    outline: 0;
+    text-align: center;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 130PX;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+.Lotto button:hover {
+    opacity: 1;
+  }
+  
